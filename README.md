@@ -10,9 +10,19 @@ AI 헬스 코치는 운동 이미지를 입력받아 인공지능으로 분석�
 ![image](https://user-images.githubusercontent.com/109723552/183353440-5727e163-3ac5-4317-ad28-8132a0c619d7.png)
 
 1. function list
+
 |구분|기능|구현|
 |:---|---:|:---:|
-|S/W|키포인트 추출|API|
+|S/W|키포인트 추출|OPEN API(KAKAO)|
 |S/W|이미지 분석|Deep Learning|
 |S/W|시각화|MatplotLib|
 
+## Files
+
+`.py` detect keypoint from image
+
+`train.py` train AI model
+
+`plot.py` draw result on image
+
+`main.py` Main
