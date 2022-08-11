@@ -1,6 +1,10 @@
 import matplotlib as plt
 import numpy as np
+import pandas as pd
 from PIL import Image
+
+IMAGE_FILE_PATH = '{image path}'
+DATA_PATH = '{data path}'
 
 # 사진 위에 키포인트 출력
 def showKeypoints():
@@ -14,7 +18,8 @@ def showKeypoints():
         img = Image.open(img_sample_path)
         img_np = np.array(img)
 
-        keypoint = df.iloc[:,1:35] #위치 키포인트 하나씩 확인
+        keypoint = pd.DataFrame(DATA_PATH)
+        keypoint = keypoint.iloc[:,1:35] #위치 키포인트 하나씩 확인
         keypoint_sample = keypoint.iloc[i, :]
         
         for j in range(0,len(keypoint.columns),2):
