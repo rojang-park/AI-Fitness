@@ -1,6 +1,7 @@
 # 2021 AI-Fitness Project
 ## 피트니스 자세 인식 및 피드백 시스템
 Project nickname : AI 헬스 코치
+
 Project execution period : 2021.07~2021.08
 
 
