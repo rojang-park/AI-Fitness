@@ -19,7 +19,7 @@ AI 헬스 코치는 운동 이미지를 입력받아 인공지능으로 분석�
 
 ## Files
 
-`makeKeypoints.py` detect keypoint from image
+`makeDataset.py` detect keypoint from image & make dataset
 
 `train.py` train AI model
 
