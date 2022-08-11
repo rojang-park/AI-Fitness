@@ -25,4 +25,6 @@ AI 헬스 코치는 운동 이미지를 입력받아 인공지능으로 분석�
 
 `plot.py` draw result on image
 
+`inference.py` inference data
+
 `main.py` Main
