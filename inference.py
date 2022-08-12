@@ -14,9 +14,6 @@ from train import trainer
 
 class inference():
     def __init__(self):
-        # self.input_path = '/home/tomcat/webapps/SmartFactory/files/rot/'
-        # self.model_path = '/home/tomcat/webapps/SmartFactory/WEB-INF/classes/algorism/rot/save/'
-        # self.output_path = '/home/tomcat/webapps/SmartFactory/WEB-INF/classes/algorism/rot/output/'
         self.input_path = '../'
         self.model_path = '../save/'
         self.output_path = '../save/'
